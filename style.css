@@ -4,10 +4,12 @@
   padding: 0;
   font-family: "Arimo", sans-serif;
 }
-
+body {
+  background-color: rgb(245, 245, 244);
+}
 .navbar {
   padding: 0;
-  position: relative; /* to solve the image under this nav */
+  position: relative;
   z-index: 1;
 }
 .navbar-toggler {
@@ -39,7 +41,7 @@
   font-weight: bold;
   font-size: 1.8em;
 }
-.row {
+.main-row {
   height: 110vh;
 }
 .main-head {
@@ -75,4 +77,58 @@
 }
 .hero-section {
   height: 100vh;
+}
+/* Cards Section */
+
+@media only screen and (max-width: 600px) {
+  .card-details {
+    height: 40vh;
+    width: auto;
+  }
+}
+@media only screen and (min-width: 601px) {
+  .card-details {
+    height: 50vh;
+    width: 17vw;
+  }
+}
+.second-section {
+  height: 75vh;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+/* Third Section */
+.about-img {
+  width: 4rem;
+  height: 3rem;
+  vertical-align: middle;
+}
+.about-title {
+  font-size: 2em;
+  text-align: center;
+  font-weight: bold;
+}
+.reduce-line-height {
+  line-height: 0.2rem;
+  letter-spacing: 0.1em;
+}
+.totals {
+  height: 10vh;
+}
+.vertical-line {
+  border-left: 7px solid rgb(254, 161, 22);
+  height: 10vh;
+  margin: 0;
+}
+.vertical-line2 {
+  border-left: 7px solid rgb(254, 161, 22);
+  height: 10vh;
+}
+.totals-section .num {
+  font-size: 2.5em;
+  color: rgb(254, 161, 22);
+  font-weight: bold;
 }
