@@ -6,10 +6,12 @@
 }
 
 .navbar {
-  width: 100%;
   padding: 0;
-  position: relative;
+  position: relative; /* to solve the image under this nav */
   z-index: 1;
+}
+.navbar-toggler {
+  background-color: rgb(254, 161, 22);
 }
 .nav-item {
   margin-right: 0.7rem;
